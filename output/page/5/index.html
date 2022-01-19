@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   
   <title>SentenceFinder - Find Sentences By word</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google-site-verification" content="sG53OpyB58d0GoBVlsEKEv_cJX01Kp1cx68-N0xXrV0" />
   <meta charset="utf-8" />
   <!-- twitter card metadata -->
 <meta property="description" content="
@@ -180,7 +181,7 @@ You can also get the definition of a word.
   
           axios({
               method : 'POST',
-              url:"https://api.sentencefinder.com/get-sentence/", 
+              url:"http://127.0.0.1:5000/get-sentence/", 
               data:{
                 "query":this.query,
                 "categorie":this.categorie,
